@@ -2,8 +2,8 @@
   "name": "rm-calculator",
   "version": "1.0.0",
   "description": "Repetition Maximum Calculator CLI Tool",
-  "main": "index.js",
   "scripts": {
+    "run-for-local": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
