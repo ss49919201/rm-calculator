@@ -1,5 +1,5 @@
 import { OptionValues, program } from "commander";
-import { calcRm } from "./workflow/calcRm";
+import { calcRm } from "../workflow/calcRm";
 
 type RunInput = {
   dryRun: boolean;
