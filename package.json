@@ -13,7 +13,7 @@
   "author": "ss49919201",
   "license": "MIT",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^14.0.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
