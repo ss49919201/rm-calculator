@@ -28,5 +28,8 @@ jobs:
     - name: Run Biome check
       run: npm run check
       
+    - name: Run TypeScript check
+      run: npm run typecheck
+      
     - name: Run tests
       run: npm test
