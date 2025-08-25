@@ -1,4 +1,4 @@
-import { OptionValues, program } from "commander";
+import { type OptionValues, program } from "commander";
 import { calcRm } from "../workflow/calcRm";
 
 type RunInput = {
@@ -26,7 +26,7 @@ function optionsToRunInput(option: OptionValues): RunInput {
 
 function parseFloatOrThrow(value: string) {
   const f = parseFloat(value);
-  if (isNaN(f)) {
+  if (Number.isNaN(f)) {
     throw new Error("Invalid number");
   }
   return f;
