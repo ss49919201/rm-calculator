@@ -17,7 +17,7 @@
   "author": "ss49919201",
   "license": "MIT",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^14.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.2",
